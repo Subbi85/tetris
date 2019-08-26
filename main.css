@@ -1,0 +1,173 @@
+a, a:visited{
+    color: #111;
+    text-decoration: none;
+}
+.button{
+    width: 120px;
+    height: 50px;    
+    background-color: #fff;
+    border: 2px solid #111;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: 200ms all;
+    color: #111;
+    float: left;
+}
+
+#score{ font-size: 36px; font-family: 'Times New Roman', Times, serif;}
+h3{ font-size:36px }
+p, label{ font-size: 28px; font-family: 'Times New Roman', Times, serif;}
+
+#wrapper{
+    width: 80%;
+    margin: auto auto;
+}
+
+
+#gameWrapper{
+    width: 410px;
+    height:860px;
+    margin:auto auto;
+    border: 1px solid black;
+    padding: 25px;
+    background-color:lightgray;
+}
+
+#canvas{
+    width:400px;
+    height:600px;
+/*    background-image: url(horde.jpg); */
+    margin: auto auto;
+    border: 1px solid #111;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#canvas2{
+    width:400px;
+    height:400px;
+/*    background-image: url(horde.jpg); */
+    margin: auto auto;
+    border: 1px solid #111;
+    border-radius: 10px;
+    background-color: white;
+    float: right;
+}
+
+#form{
+    width:400px;
+    height:600px;
+/*    background-image: url(horde.jpg); */
+    margin: auto auto;
+    display: none;
+}
+
+table{
+    font-size: 30px;
+    margin:auto auto;
+}
+
+table td{
+    text-align: center;
+}
+
+/* #############################################*/
+#buttonsContainer{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #111;
+}
+
+#steuerkreuz{
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 33% 33% 33%;
+    float:left;
+}
+
+.grid{
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding:3px;
+    font-weight: bold;
+}
+
+.grid:hover{
+    cursor: pointer;
+}
+
+#grid1{
+    grid-column-start: 1;
+    grid-column-start: 2;
+    grid-row-start:0;
+    grid-row-start:1;
+}
+
+#grid2{
+    grid-column-start: 2;
+    grid-column-start: 3;
+    grid-row-start:1;
+    grid-row-start:2;
+}
+
+#grid3{
+    grid-column-start: 0;
+    grid-column-start: 1;
+    grid-row-start:1;
+    grid-row-start:2;
+}
+
+#grid4{
+    grid-column-start: 1;
+    grid-column-start: 2;
+    grid-row-start:1;
+    grid-row-start:2;
+}
+
+#grid5{
+    grid-column-start: 1;
+    grid-column-start: 2;
+    grid-row-start:2;
+    grid-row-start:3;
+}
+
+#buttons{
+    width: 180px;
+    height: 180px;
+    float: right;
+    padding: 10px;
+}
+
+#buttonA{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-left:100px;
+    font-weight: bold;
+}
+
+#buttonB{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+

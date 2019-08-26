@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projektarbeit Lars Schleyer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js" defer></script>
+    <script src="nodefunctions.js" defer></script>
+    <script src="highscore.js"></script>
+</head>
+<body>
+    <h4>Projektarbeit 2.0 - Tetris </h4>   
+    <label for="username">Namen eingeben:</label>
+    <input type="text" value="User" id="username">
+    <div id="gameWrapper">
+        <!-- Form zur Eingabe des Usernames nach dem Game Over-->
+        <div id="form">
+            <div id="stats"></div>
+        </div>
+        <!-- Spielfeld -->
+        <canvas id="canvas" width="400" height="600">
+            <noscript>
+                Bitte JavaScript aktivieren, um spielen zu können
+            </noscript>
+        </canvas>
+
+        <div id="buttonsContainer">
+        <!-- Element für die Buttons vom "Game Boy"-->
+            <div id="steuerkreuz">
+                <!--Rauf-->
+                <div class="grid" id="grid1">&#8593</div>
+                <!--Rechts-->
+                <div class="grid" id="grid2">&#8594 </div>
+                <!--Links-->
+                <div class="grid" id="grid3"> &#8592</div>
+                <!--Mitte-->
+                <div class="grid" id="grid4"><a href="https://www.youtube.com/watch?v=HEsAr2Yt2do" target="_blank">°</a></div>
+                <!--Runter-->
+                <div class="grid" id="grid5">&#8595</div>
+            </div>
+            <div id="buttons">
+                <div id="buttonA">A</div>
+                <div id="buttonB">B</div>
+            </div>
+        </div>
+        <label for="score" id="scorelabel">Punktestand: </label>
+        <div id="score"></div>
+        <!--Matrizen für die einzelnen Figuren-->
+    </div>
+</body>
+</html>
